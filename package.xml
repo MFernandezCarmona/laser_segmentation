@@ -6,7 +6,7 @@
   <description>Implementation of algorithms for segmentation of laserscans.</description>
   <maintainer email="ajtudela@gmail.com">Alberto J. Tudela Roldán</maintainer>
   <maintainer email="manolofc@gmail.com">Manuel Fernandez-Carmona</maintainer>
-  <license>TODO</license>
+  <license>MIT</license>
   <author email="ajtudela@gmail.com">Alberto J. Tudela Roldán</author>
   <buildtool_depend>ament_cmake</buildtool_depend>
   <depend>rclcpp</depend>
