@@ -42,7 +42,7 @@ To build from source, clone the latest version from the main repository into you
 ## Usage
 
 Run the laser_segmentation node with:
-	ros2 launch laser_segmentation laser_segmentation.launch
+	ros2 launch laser_segmentation segmentation.launch.py
 
 ## Nodes
 

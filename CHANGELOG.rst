@@ -2,6 +2,10 @@
 Changelog for package laser_segmentation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.1 (16-10-2022)
+------------------
+* Added default launch file.
+
 2.0.0 (15-10-2022)
 ------------------
 * First ROS2 (Humble) version.
