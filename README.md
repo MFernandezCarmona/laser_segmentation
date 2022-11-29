@@ -1,5 +1,6 @@
 # laser_segmentation
 ![ROS2](https://img.shields.io/badge/ros2-humble-blue?logo=ros&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 ## Overview
 
@@ -40,7 +41,7 @@ To build from source, clone the latest version from the main repository into you
 ## Usage
 
 With some scan source running, run the laser_segmentation node with:
-	ros2 launch laser_segmentation laser_segmentation.launch
+	ros2 launch laser_segmentation segmentation.launch.py
 
 ## Nodes
 
@@ -84,7 +85,7 @@ Segmentation of the laserscans.
 
 	Choose between several segmentation algorithms. Jump distance clustering (`jump_distance`) and jump distance and merge (`jump_distance_merge`).
 
-#### Parameters for filtering available through dynamic reconfigure
+#### Parameters for filtering
 
 * **`min_points_segment`** (int, default: 3)
 
@@ -110,11 +111,11 @@ Segmentation of the laserscans.
 
 	Maximum width of the segment.
 
-#### Parameters for algorithms available through dynamic reconfigure
+#### Parameters for segmentation algorithms
 
 * **`method_threshold`** (string, default: "")
 
-	Method to calculate a dynamic jump distance threshold in jump_distance or jump_distance_merge algorithms. This value and methods are based on `lee` (Lee, 2001), `diet`(Dietmayer, et al., 2001) or `santos` (Santos, et al., 2003).
+	Method to calculate a dynamic jump distance threshold in jump_distance or jump_distance_merge algorithms. This value and methods are based on `lee` (Lee, 2001), `diet` (Dietmayer, et al., 2001) or `santos` (Santos, et al., 2003).
 
 * **`distance_threshold`** (double, default: 0.3)
 
