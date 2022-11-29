@@ -80,7 +80,7 @@ laserSegmentation::laserSegmentation(): Node("laser_segmentation"), setup_(false
 							.set__floating_point_range({rcl_interfaces::msg::FloatingPointRange()
 								.set__from_value(0.0)
 								.set__to_value(100.0)
-								.set__step(0.1)}
+								.set__step(0.01)}
 							));
 	this->get_parameter("max_segment_width",            max_segment_width_);
 	RCLCPP_INFO(this->get_logger(), "The parameter max_segment_width is set to: [%f]", max_segment_width_);
